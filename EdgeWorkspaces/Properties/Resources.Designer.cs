@@ -97,7 +97,7 @@ namespace Community.PowerToys.Run.Plugin.EdgeWorkspaces.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Opens Parent Edge Profile (Ctrl+Shift+P).
+        ///   Looks up a localized string similar to Open Parent Edge Profile (Ctrl+Shift+P).
         /// </summary>
         internal static string open_profile {
             get {
@@ -106,7 +106,7 @@ namespace Community.PowerToys.Run.Plugin.EdgeWorkspaces.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to EdgeWorkspaces plugin.
+        ///   Looks up a localized string similar to Open Edge workspaces.
         /// </summary>
         internal static string plugin_description {
             get {
@@ -115,20 +115,11 @@ namespace Community.PowerToys.Run.Plugin.EdgeWorkspaces.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to EdgeWorkspaces.
+        ///   Looks up a localized string similar to Edge Workspaces.
         /// </summary>
         internal static string plugin_name {
             get {
                 return ResourceManager.GetString("plugin_name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to EdgeWorkspaces settings.
-        /// </summary>
-        internal static string plugin_setting {
-            get {
-                return ResourceManager.GetString("plugin_setting", resourceCulture);
             }
         }
     }

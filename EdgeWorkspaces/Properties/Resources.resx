@@ -117,21 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="plugin_description" xml:space="preserve">
-    <value>EdgeWorkspaces plugin</value>
-  </data>
-  <data name="plugin_name" xml:space="preserve">
-    <value>EdgeWorkspaces</value>
-  </data>
-  <data name="plugin_setting" xml:space="preserve">
-    <value>EdgeWorkspaces settings</value>
-  </data>
-  <data name="launch_workspace" xml:space="preserve">
-    <value>Launch Edge Workspace</value>
-  </data>
-  <data name="open_profile" xml:space="preserve">
-    <value>Opens Parent Edge Profile (Ctrl+Shift+P)</value>
-  </data>
   <data name="account_type_local" xml:space="preserve">
     <value>Local</value>
   </data>
@@ -140,5 +125,17 @@
   </data>
   <data name="account_type_work" xml:space="preserve">
     <value>Work</value>
+  </data>
+  <data name="launch_workspace" xml:space="preserve">
+    <value>Launch Edge Workspace</value>
+  </data>
+  <data name="open_profile" xml:space="preserve">
+    <value>Open Parent Edge Profile (Ctrl+Shift+P)</value>
+  </data>
+  <data name="plugin_description" xml:space="preserve">
+    <value>Open Edge workspaces</value>
+  </data>
+  <data name="plugin_name" xml:space="preserve">
+    <value>Edge Workspaces</value>
   </data>
 </root>
