@@ -1,0 +1,14 @@
+{
+	"ID": "83fc8324db384db4978d41f183ed5b30",
+	"ActionKeyword": "}",
+	"Disabled": false,
+	"IsGlobal": false,
+	"Name": "EdgeWorkspaces",
+	"Author": "",
+	"Version": "1.0.0",
+	"Language": "csharp",
+	"Website": "",
+	"ExecuteFileName": "Community.PowerToys.Run.Plugin.EdgeWorkspaces.dll",
+	"IcoPathDark": "Images\\EdgeWorkspaces.dark.png",
+	"IcoPathLight": "Images\\EdgeWorkspaces.light.png"
+}
