@@ -33,11 +33,7 @@ public class Main : IPlugin, IPluginI18n, IContextMenu, IReloadable, IDisposable
 				Score = matchResult.Score,
 				IcoPath = ws.Color.GetIconPath(_iconFolder!),
 				ContextData = pf.ProfileDir,
-				Action = _ =>
-				{
-					EdgeHelpers.OpenEdgeProfile(pf.ProfileDir, ws.Id);
-					return true;
-				},
+				Action = _ => EdgeHelpers.OpenEdgeProfile(pf.ProfileDir, ws.Id),
 			};
 		})).ToList();
 
@@ -57,16 +53,13 @@ public class Main : IPlugin, IPluginI18n, IContextMenu, IReloadable, IDisposable
 		[
 			new ()
 			{
+				PluginName = Name,
 				Title = Resources.open_profile,
 				FontFamily = "Segoe Fluent Icons,Segoe MDL2 Assets",
 				Glyph = "\xE7EE",
 				AcceleratorKey = Key.P,
 				AcceleratorModifiers = ModifierKeys.Control|ModifierKeys.Shift,
-				Action = _ =>
-				{
-					EdgeHelpers.OpenEdgeProfile((string)selectedResult.ContextData);
-					return true;
-				}
+				Action = _ => EdgeHelpers.OpenEdgeProfile((string)selectedResult.ContextData),
 			},
 		];
 	}
