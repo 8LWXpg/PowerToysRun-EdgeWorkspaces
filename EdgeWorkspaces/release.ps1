@@ -5,7 +5,7 @@ $name = 'EdgeWorkspaces'
 $assembly = "Community.PowerToys.Run.Plugin.$name"
 $version = "v$((Get-Content ./plugin.json | ConvertFrom-Json).Version)"
 $archs = @('x64', 'arm64')
-$tempDir = './out/temp'
+$tempDir = "./out/$name"
 
 git tag $version
 git push --tags
