@@ -36,6 +36,24 @@ ptr add EdgeWorkspaces 8LWXpg/PowerToysRun-EdgeWorkspaces
 1. Clone the repository and the dependencies in `/lib` with `EdgeWorkspaces/copyLib.ps1`.
 2. run `dotnet build -c Release`.
 
+<details>
+<summary>Generating images</summary>
+
+#### Prerequisites
+
+- [oxipng](https://github.com/shssoichiro/oxipng)
+- [Inkscape](https://inkscape.org)
+
+Both can be installed with `winget`
+
+```shell
+winget install oxipng inkscape
+```
+
+After that, you can run the `generateImages.ps1` script (Powershell 7) to generate the images.
+
+</details>
+
 ## Debugging
 
 1. Clone the repository and the dependencies in `/lib` with `EdgeWorkspaces/copyLib.ps1`.
