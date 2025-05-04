@@ -2,7 +2,7 @@
 
 A [PowerToys Run](https://aka.ms/PowerToysOverview_PowerToysRun) plugin to open Edge Workspaces.
 
-Derive from [quachpas/PowerToys-Run-EdgeWorkspaces](https://github.com/quachpas/PowerToys-Run-EdgeWorkspaces), removed runtime icon drawing and rewrote from scratch.
+Derive from [quachpas/PowerToys-Run-EdgeWorkspaces](https://github.com/quachpas/PowerToys-Run-EdgeWorkspaces), removed runtime icon drawing and rewrote from scratch. Mainly developed for self use, but bug report and feature request is wellcomed!
 
 Checkout the [Template](https://github.com/8LWXpg/PowerToysRun-PluginTemplate) for a starting point to create your own plugin.
 
